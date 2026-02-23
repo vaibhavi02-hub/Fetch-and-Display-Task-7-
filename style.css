@@ -1,0 +1,54 @@
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #000;
+    --card-bg: #ffffff;
+}
+
+body.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --card-bg: #2c2c2c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#userContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.user-card {
+    background: var(--card-bg);
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+}
