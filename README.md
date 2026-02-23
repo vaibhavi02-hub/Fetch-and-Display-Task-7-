@@ -4,6 +4,8 @@ A simple web application that fetches and displays user data from a public API u
 It also includes a **Dark/Light Mode toggle with persistent theme storage**.
 
 ---
+Live link: https://vaibhavi02-hub.github.io/Fetch-and-Display-Task-7-/
+---
 
 ## 🚀 Features
 
